@@ -1,0 +1,79 @@
+.bold{
+    color: #ff0000;
+    font-weight: bold;
+}
+p{
+    font-size: 25px;
+
+}
+#duy{
+    color: aqua;
+}
+input[type= text]{
+
+color: fuchsia;
+}
+h3,h6{
+    height: 2px;
+
+}
+ul li {
+color: #ff0000;
+}
+ul >li {
+    font-size: 29px;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    font-weight:bold ;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*   trang trí kiểu chữ*/
+    font-style:oblique;/* dùng nghiền , văn bản mặc định*/
+    text-align:left;/*căn lề*/
+    text-decoration: dotted;
+    background-color: black;
+}
+h3 {
+    background-image: url('../image/natural-pic1.jpg');
+}
+/*
+    repeat: là giá trị mặc định, hình nền lặp lại theo chiều ngang lẫn chiều dọc
+    no-repeat: không lặp lại
+    repeat-x: chỉ lặp lại theo chiều ngang
+    repeat-y: chỉ lặp lại theo chiều dọc
+*/
+/*
+Thuộc tính border-style dùng để thiết lập kiểu đường viền.
+Thuộc tính border-width dùng để thiết lập độ dày của đường viền
+Thuộc tính border-color dùng để thiết lập màu của đường viền
+có thể thiết lập 4 vị trí 4 cạnh hình vuông màu , with
+Thay vì phải định dạng cho đường viền bởi 3 thuộc tính (border-style, border-width, border-color) riêng biệt, thì ta có thể gôm chúng lại thành một theo cú pháp sau:
+
+border: value1 value2 value3;
+*/
+h1{
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: green;
+
+    border-right-style: double;
+    border-right-width: 10px;
+    border-right-color: blue;
+
+    border-bottom-style: dashed;
+}
+span{
+    display:inline-block;
+    border: 3px solid green;
+    width: 300px;/*chiều dài*/
+    height: 200px;/*chiều rộng*/
+    
+}
+h1:nth-child(2)
+{
+   display: none; 
+}
