@@ -1,0 +1,30 @@
+<!-- <html>
+  <body>
+    
+    <input type="text" value="Freetuts.net" id="website" />
+    
+    <script language="javascript">
+      // Lấy thẻ input
+      var element = document.getElementById('website');
+      
+      // Lấy giá trị của thẻ input
+      document.write(element.value);
+    </script>
+  </body>
+</html> -->
+<html>
+  <body>
+    <input type="text" value="thẻ không cần lấy" class="website"/>
+    <div>
+      	<input type="text" value="Thẻ Cần Lấy" class="website"/>
+        <input type="text" value="thẻ không cần lấy"/>
+    </div>
+    <script language="javascript">
+      // Lấy thẻ input
+      var element = document.querySelectorAll("div input.website");
+      
+      // Lấy giá trị của thẻ input
+      document.write('<h3>Nội dung thẻ cần lấy là: ' + element[0].value + '</h3>');
+    </script>
+  </body>
+</html>
